@@ -7,6 +7,7 @@ import About from './Component/About/About'
 import Campus from './Component/Campus/Campus'
 import Testonimals from './Component/Testonimals/Testonimals'
 import Contact from './Component/Contact/Contact'
+import Footer from './Component/Footer/Footer'
 
 const App = () => {
   return (
@@ -23,6 +24,8 @@ const App = () => {
       <Title title='Campus Photos' subtitle='what students say'/>
       <Testonimals/>
       <Title title='Contact' subtitle='Get In touch'/>
+      <Contact />
+      <Footer />
       
       
       
